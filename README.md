@@ -8,3 +8,7 @@
 きちんと tumblr にもあげてるよ。
 
 [http://awwwardkun.tumblr.com/](http://awwwardkun.tumblr.com/)
+
+# 仕事ください
+
+仕事したい(大嘘 365日寝てたい)
