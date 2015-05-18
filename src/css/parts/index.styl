@@ -1,0 +1,89 @@
+html, body
+  font-family: "manga", "Yu Gothic", YuGothic, sans-serif
+  -webkit-font-smoothing none
+  font-size: 62.5%
+
+_minwidth = 900px
+
+header
+  position fixed
+  left 0
+  min-width _minwidth
+  h1
+    display: inline-block
+   
+    padding: 4px 4px 4px 20%
+    background #000
+    color: #fff
+    fontsize(32px)
+    font-weight normal
+    letter-spacing: 0.2em
+    
+    
+#container
+  margin: 0 auto
+  width _minwidth
+  padding-top 200px
+  
+    
+article
+  {clearfix}
+  width 100%
+  margin-bottom 40px
+  
+  
+  .site_image
+    position relative
+    float left
+    width 48%
+    
+    a
+      position relative
+      display block
+
+    img
+      width 100%
+    
+    .no_image
+      display table
+      width 100%
+      min-height: 200px
+      background: #f5f5f5
+      
+      text-align center
+      vertical-align middle
+      
+      a
+        display: table-cell
+        vertical-align: middle
+        
+    a
+      &:after
+        content: 'visit site->'
+        position absolute
+        top 50%
+        left 50%
+        margin-top -15px
+        margin-left -100px
+        width 200px
+        height 30px
+        opacity: 0
+        background #000
+        color: #fff
+        fset(20, 30)
+        text-align center
+        
+        z-index 100
+    
+    &:hover
+      a
+        &:after
+          opacity 1
+
+  .impressions
+    float right
+    width 48%
+    fset(14, 20)
+  
+  .text_area
+    overflow: auto

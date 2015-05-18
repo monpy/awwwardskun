@@ -1,0 +1,43 @@
+fontsize(size = 10)
+  font-size: unit(size, px)
+  font-size: unit(size/10,rem)
+
+lineheight(font_size = 10, height = 10)
+  calc =  height / font_size
+  line-height: calc
+
+fset(font_size,line_height)
+  fontsize(font_size)
+  lineheight(font_size,line_height)
+
+clearfix = @block {
+  &:after{
+    content: ""
+    display: block
+    clear: both
+  }
+}
+
+half_background_size(image)
+  background-size: (image-size(image)[0] / 2)
+
+set_center_half(image)
+  background-image: url(image)
+  background-size: (image-size(image)[0] / 2)
+  background-repeat: no-repeat
+  background-position: center center
+
+set_with_image(image)
+  width: (image-size(image)[0] / 2)
+  height: (image-size(image)[1] / 2)
+  background-image: url(image)
+  background-size: (image-size(image)[0] / 2)
+  background-repeat: no-repeat
+  background-position: 0 0
+  cursor: pointer
+
+reset_input = 
+  -webkit-appearance: none
+  border: 0
+  margin: 0
+  padding: 0

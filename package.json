@@ -1,0 +1,38 @@
+{
+  "name": "awwwards_matome",
+  "version": "1.0.0",
+  "description": "アワードの感想をしたためるサイト。tumblr にあげることをベースに考える。",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "MJ",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.6.0",
+    "babelify": "^6.1.0",
+    "browser-sync": "^2.7.1",
+    "browserify": "^10.1.3",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-inline-source": "^1.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-stylus": "^2.0.1",
+    "plumber": "^0.4.8",
+    "run-sequence": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "component-emitter": "component/emitter",
+    "flux": "^2.0.3",
+    "is-js": "^0.1.1",
+    "jquery": "^2.1.4",
+    "jsonp": "^0.2.0",
+    "keymirror": "^0.1.1",
+    "normalize.css": "^3.0.3",
+    "ogp-parser": "^0.2.1",
+    "react": "^0.13.3"
+  }
+}
